@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "NNGKMLDstCPj9CnHMhcDLGfYY9e1zIxZ6iE0woKzzsySfFtrRRkaY09ghFdLKzsD0DliVE2ezbwg7C2VIOwPkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amine\\Downloads\\ImageMetaReader\\ImageMetaReader\\ImageMetaReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amine\\.nuget\\packages\\metadataextractor\\2.4.3\\metadataextractor.2.4.3.nupkg.sha512",
+    "C:\\Users\\amine\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\amine\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\amine\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\amine\\.nuget\\packages\\xmpcore\\6.1.10\\xmpcore.6.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

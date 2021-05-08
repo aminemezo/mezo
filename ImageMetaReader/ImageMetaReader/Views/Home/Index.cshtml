@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IList<MetadataExtractor.Directory>
+
+<div class="text-center">
+   <form asp-route="read-meta" method="post" enctype="multipart/form-data">
+       <input type="file" name="file" />
+       <button type="submit" value="Read">Read</button>
+   </form>
+</div>
+
+@if(Model != null && Model.Any())
+{
+
+    @foreach(var item in Model)
+    {
+<div>
+    @foreach (var tag in item.Tags)
+    { <ul>
+          <li>
+              <b>@tag.Name : </b>
+              <i>@tag.Description -- </i>
+              <i>@tag.Type</i>
+          </li>
+      </ul>
+    }
+</div>
+    }
+
+}
